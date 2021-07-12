@@ -10,7 +10,7 @@ const Header: FunctionComponent<HeaderProps> = ({title = 'Task Tracker', onAdd, 
     return (
         <header className='header'>
             <h1>{title}</h1>
-            {location.pathname === '/' && <Button color={showAdd ? 'red' : 'green'} text={showAdd ? 'Close': 'Add'} onClick={onAdd}/>}
+            {location.pathname === '/react-todo-tracker-ts/' && <Button color={showAdd ? 'red' : 'green'} text={showAdd ? 'Close': 'Add'} onClick={onAdd}/>}
         </header>
     )
 }
