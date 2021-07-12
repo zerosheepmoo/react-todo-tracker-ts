@@ -5,7 +5,7 @@ const Footer: FunctionComponent = () => {
     return (
         <footer>
             <p> Copyright &copy; 2021</p>
-            <Link to="/about">About</Link>
+            <Link to="/react-todo-tracker-ts/about">About</Link>
         </footer>
     )
 }
